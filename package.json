@@ -1,0 +1,37 @@
+{
+  "name": "ZZZTreeApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "remotedev": "remotedev --hostname=localhost --port=8000 --injectserver=reactnative"
+  },
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "moment": "^2.14.1",
+    "react": "15.2.1",
+    "react-native": "^0.31.0",
+    "react-native-animatable": "^0.6.1",
+    "react-native-calendar": "^0.7.0",
+    "react-native-drawer": "^2.2.6",
+    "react-native-keyboard-spacer": "^0.3.0",
+    "react-native-router-flux": "^3.34.0",
+    "react-native-smart-scroll-view": "^1.3.6",
+    "react-native-vector-icons": "^2.0.3",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-orm": "^0.9.0-rc.3",
+    "redux-persist": "^3.2.2",
+    "redux-promise": "^0.5.3",
+    "reselect": "^2.5.3",
+    "tcomb": "^3.2.10",
+    "tcomb-validation": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-2": "^6.13.0",
+    "remote-redux-devtools": "^0.4.8",
+    "remotedev-app": "^0.7.0"
+  }
+}
