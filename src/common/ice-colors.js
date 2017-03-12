@@ -8,7 +8,7 @@ var iceBlack = '#1B1B1E';
 
 //Original iceGreen #5BC0BE
 
-//colors
+//colors of app
 module.exports = {
 
             iceLightGray: iceLightGray,
