@@ -32,9 +32,6 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		881C1A108FB345F2862DB8DE /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C4057BC9E224E1089D0DBF4 /* EvilIcons.ttf */; };
 		8EB70BDEFA384A21821AD3AE /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 528EF598AE884596980592D9 /* FontAwesome.ttf */; };
-		E13292BF1D7F021900A68CD8 /* MAXWELL LIGHT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E13292BE1D7F021900A68CD8 /* MAXWELL LIGHT.ttf */; };
-		E13292CC1D7F0CBC00A68CD8 /* ReginaFree.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E13292CB1D7F0CBC00A68CD8 /* ReginaFree.ttf */; };
-		E13292CE1D7F0E8100A68CD8 /* MAXWELL REGULAR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E13292CD1D7F0E8100A68CD8 /* MAXWELL REGULAR.ttf */; };
 		E244B52E56994C6594962405 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBF8E62A07948D3B9B14AD4 /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
@@ -172,9 +169,6 @@
 		C1884ECAABFD4A5FAE8306DB /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		C93F79AC3BDE4AC9A05263A8 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		DEBF8E62A07948D3B9B14AD4 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
-		E13292BE1D7F021900A68CD8 /* MAXWELL LIGHT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MAXWELL LIGHT.ttf"; path = "../../../../../custom fonts/MAXWELL TYPEFACE/MAXWELL LIGHT.ttf"; sourceTree = "<group>"; };
-		E13292CB1D7F0CBC00A68CD8 /* ReginaFree.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ReginaFree.ttf; path = "../../../../../custom fonts/ReginaFree.ttf"; sourceTree = "<group>"; };
-		E13292CD1D7F0E8100A68CD8 /* MAXWELL REGULAR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MAXWELL REGULAR.ttf"; path = "../../../../../custom fonts/MAXWELL TYPEFACE/MAXWELL REGULAR.ttf"; sourceTree = "<group>"; };
 		FEE09776D647463883AE9A3A /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -357,14 +351,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				E13292CD1D7F0E8100A68CD8 /* MAXWELL REGULAR.ttf */,
-				E13292CB1D7F0CBC00A68CD8 /* ReginaFree.ttf */,
-				E13292BE1D7F021900A68CD8 /* MAXWELL LIGHT.ttf */,
 				13B07FAE1A68108700A75B9A /* ZZZTreeApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ZZZTreeAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				1787EEB9BC174EA7B1B0F153 /* Resources */,
+				E1BFA21D20B6070800A64ACB /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -394,6 +386,15 @@
 				E13BAE951D5E5F6A00C91C6E /* libRNVectorIcons.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E1BFA21D20B6070800A64ACB /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				0B68FE1FBEDB4CDAA59E8BF8 /* libRCTActionSheet.a */,
+				BAA26FD2F39A41ADB5A08FD9 /* libRNVectorIcons.a */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -627,7 +628,6 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				E13292BF1D7F021900A68CD8 /* MAXWELL LIGHT.ttf in Resources */,
 				2B474CAC7EAF4D35AA2F0C7A /* Entypo.ttf in Resources */,
 				881C1A108FB345F2862DB8DE /* EvilIcons.ttf in Resources */,
 				8EB70BDEFA384A21821AD3AE /* FontAwesome.ttf in Resources */,
@@ -635,8 +635,6 @@
 				698398D0BB1045DBA75166A5 /* Ionicons.ttf in Resources */,
 				0059208F321B42528E3D7C3D /* MaterialIcons.ttf in Resources */,
 				3789F6315ABD4B8F9BFECDA9 /* Octicons.ttf in Resources */,
-				E13292CE1D7F0E8100A68CD8 /* MAXWELL REGULAR.ttf in Resources */,
-				E13292CC1D7F0CBC00A68CD8 /* ReginaFree.ttf in Resources */,
 				E244B52E56994C6594962405 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

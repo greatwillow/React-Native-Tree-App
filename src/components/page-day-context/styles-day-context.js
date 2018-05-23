@@ -1,18 +1,14 @@
-import {
-  Dimensions,
-  StyleSheet
-} from 'react-native'
+import { Dimensions, StyleSheet } from 'react-native';
 
-import IceColors from '../../common/ice-colors'
+import IceColors from '../../common/ice-colors';
 
 const deviceWidth = Dimensions.get('window').width;
 
-
-export default stylesDayContext = StyleSheet.create({
+export default (stylesDayContext = StyleSheet.create({
   modalInternalButton: {
     backgroundColor: IceColors.iceDarkGray,
     height: 40,
-    width: (deviceWidth/6)*3,
+    width: deviceWidth / 6 * 3,
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 5
@@ -24,7 +20,7 @@ export default stylesDayContext = StyleSheet.create({
     paddingLeft: 10,
     borderRadius: 5,
     height: 40,
-    width: (deviceWidth/6)*4,
+    width: deviceWidth / 6 * 4,
     alignSelf: 'center'
   },
   modalTextInputMultiLine: {
@@ -34,12 +30,12 @@ export default stylesDayContext = StyleSheet.create({
     paddingLeft: 10,
     borderRadius: 5,
     height: 160,
-    width: (deviceWidth/6)*4,
+    width: deviceWidth / 6 * 4,
     alignSelf: 'center'
   },
   crudListHeader: {
     backgroundColor: IceColors.iceDarkGray,
-    width: 6*(deviceWidth/8),
+    width: 6 * (deviceWidth / 8),
     alignSelf: 'center',
     margin: 10,
     marginTop: 30,
@@ -60,4 +56,4 @@ export default stylesDayContext = StyleSheet.create({
     paddingLeft: 20,
     paddingRight: 20
   }
-})
+}));

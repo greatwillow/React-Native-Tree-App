@@ -1,19 +1,15 @@
-import {
-  Dimensions,
-  StyleSheet
-} from 'react-native'
+import { Dimensions, StyleSheet } from 'react-native';
 
-import IceColors from './ice-colors'
+import IceColors from './ice-colors';
 
 const deviceWidth = Dimensions.get('window').width;
 const deviceHeight = Dimensions.get('window').height;
 
-
-export default commonStyles = StyleSheet.create({
+export default (commonStyles = StyleSheet.create({
   modalInternalButton: {
     backgroundColor: IceColors.iceDarkGray,
     height: 40,
-    width: (deviceWidth/6)*3,
+    width: deviceWidth / 6 * 3,
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 5
@@ -25,7 +21,7 @@ export default commonStyles = StyleSheet.create({
     paddingLeft: 10,
     borderRadius: 5,
     height: 40,
-    width: (deviceWidth/6)*4,
+    width: deviceWidth / 6 * 4,
     alignSelf: 'center'
   },
   modalTextInputMultiLine: {
@@ -35,12 +31,12 @@ export default commonStyles = StyleSheet.create({
     paddingLeft: 10,
     borderRadius: 5,
     height: 160,
-    width: (deviceWidth/6)*4,
+    width: deviceWidth / 6 * 4,
     alignSelf: 'center'
   },
   crudListHeader: {
     backgroundColor: IceColors.iceDarkGray,
-    width: 6*(deviceWidth/8),
+    width: 6 * (deviceWidth / 8),
     alignSelf: 'center',
     margin: 10,
     marginTop: 30,
@@ -48,11 +44,11 @@ export default commonStyles = StyleSheet.create({
     padding: 10,
     paddingLeft: 20,
     paddingRight: 20,
-    borderRadius: 10,
+    borderRadius: 10
   },
   crudSubListHeader: {
     backgroundColor: IceColors.iceDarkGray,
-    width: 4*(deviceWidth/6),
+    width: 4 * (deviceWidth / 6),
     height: 40,
     flexDirection: 'row',
     alignSelf: 'center',
@@ -66,7 +62,7 @@ export default commonStyles = StyleSheet.create({
   crudList: {
     margin: 10,
     backgroundColor: IceColors.iceDarkGray,
-    width: 6*(deviceWidth/8),
+    width: 6 * (deviceWidth / 8),
     alignSelf: 'center',
     borderWidth: 0,
     borderRadius: 10
@@ -74,7 +70,7 @@ export default commonStyles = StyleSheet.create({
   crudSubList: {
     margin: 10,
     backgroundColor: IceColors.iceDarkGray,
-    width: 4*(deviceWidth/6),
+    width: 4 * (deviceWidth / 6),
     alignSelf: 'center',
     borderWidth: 0,
     borderRadius: 5
@@ -93,26 +89,27 @@ export default commonStyles = StyleSheet.create({
   expandingPanel: {
     margin: 10,
     backgroundColor: IceColors.iceDarkGray,
-    width: 6*(deviceWidth/8),
+    width: 6 * (deviceWidth / 8),
     alignSelf: 'center',
     borderWidth: 0,
     borderRadius: 10
   },
   modalBackgroundYesTransparent: {
-    height: deviceHeight*1.5,
+    height: deviceHeight * 1.5,
     justifyContent: 'flex-start',
     backgroundColor: 'rgba(0,0,0,0.7)'
   },
   modalBackgroundNoTransparent: {
-    height: deviceHeight*1.5,
+    height: deviceHeight * 1.5,
     justifyContent: 'flex-start',
     backgroundColor: '#f5fcff'
   },
   modalInnerContainerTransparentStyle: {
     backgroundColor: IceColors.iceGreen,
-    padding: 10, width: (deviceWidth/6)*5,
+    padding: 10,
+    width: deviceWidth / 6 * 5,
     alignSelf: 'center',
     alignItems: 'center',
-    borderRadius: 10,
+    borderRadius: 10
   }
-})
+}));

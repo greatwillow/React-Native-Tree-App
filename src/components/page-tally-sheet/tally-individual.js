@@ -1,8 +1,6 @@
 'use strict';
 
-import React, {
-    Component
-} from 'react'
+import React, { Component } from 'react';
 
 import {
   Text,
@@ -12,19 +10,17 @@ import {
   TouchableOpacity,
   ScrollView,
   Dimensions
-} from 'react-native'
+} from 'react-native';
 
-import IceColors from '../../common/ice-colors'
-
+import IceColors from '../../common/ice-colors';
 
 const deviceWidth = Dimensions.get('window').width;
 
-
 export default class TallyIndividual extends Component {
-      constructor(props) {
-        super(props);
-      }
-/*
+  constructor(props) {
+    super(props);
+  }
+  /*
       renderBlockList() {
         return this.props.block_data.map((block) => {
             var species = block.species.map((s) => {
@@ -52,19 +48,14 @@ export default class TallyIndividual extends Component {
       }
       */
 
-      render() {
-        return (
-            <View>
-              {/*  {this.renderBlockList()} */}
-            </View>
-        );
-      }
-
+  render() {
+    return <View>{/*  {this.renderBlockList()} */}</View>;
+  }
 }
 
-var styles = StyleSheet.create( {
+var styles = StyleSheet.create({
   speciesContainer: {
-    width: deviceWidth*0.4,
+    width: deviceWidth * 0.4,
     alignSelf: 'center',
     justifyContent: 'flex-start'
   },
@@ -72,7 +63,7 @@ var styles = StyleSheet.create( {
     justifyContent: 'flex-start',
     backgroundColor: 'white',
     height: 40,
-    width: deviceWidth*0.5,
+    width: deviceWidth * 0.5,
     margin: 10,
     padding: 5,
     borderColor: 'gray',

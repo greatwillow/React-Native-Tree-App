@@ -1,4 +1,4 @@
-var React = ('react-native');
+var React = 'react-native';
 
 var iceLightGray = '#E1ECF4';
 var iceMediumGray = '#A9BCD0';
@@ -10,10 +10,9 @@ var iceBlack = '#1B1B1E';
 
 //colors of app
 module.exports = {
-
-            iceLightGray: iceLightGray,
-            iceMediumGray: iceMediumGray,
-            iceGreen: iceGreen,
-            iceDarkGray: iceDarkGray,
-            iceBlack: iceBlack
+  iceLightGray: iceLightGray,
+  iceMediumGray: iceMediumGray,
+  iceGreen: iceGreen,
+  iceDarkGray: iceDarkGray,
+  iceBlack: iceBlack
 };
