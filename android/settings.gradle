@@ -1,4 +1,4 @@
-rootProject.name = 'ZZZTreeApp'
+rootProject.name = 'PlanterLogger'
 
 include ':app'
 include ':react-native-vector-icons'

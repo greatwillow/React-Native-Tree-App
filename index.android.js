@@ -10,4 +10,4 @@ import {
 
 import AppWrapper from './src/app-wrapper';
 
-AppRegistry.registerComponent('ZZZTreeApp', () => AppWrapper);
+AppRegistry.registerComponent('PlanterLogger', () => AppWrapper);

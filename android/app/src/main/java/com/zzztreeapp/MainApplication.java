@@ -1,4 +1,4 @@
-package com.zzztreeapp;
+package com.planterlogger;
 
 import android.app.Application;
 import android.util.Log;
